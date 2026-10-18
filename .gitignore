@@ -1,0 +1,20 @@
+# KiCad lock files (exist only while a file is open in KiCad)
+~*.lck
+*.lck
+
+# KiCad caches and per-user view state
+fp-info-cache
+*.kicad_prl
+
+# KiCad local history (contains its own nested git repo) and backups
+.history/
+*-backups/
+_restore_backup_*/
+_autosave-*
+*.bak
+*.bck
+*-bak
+
+# macOS metadata
+.DS_Store
+._*
