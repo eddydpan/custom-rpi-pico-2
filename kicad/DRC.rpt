@@ -1,0 +1,446 @@
+** Drc report for mp3_fa2026.kicad_pcb **
+** Created on 2026-10-18T09:52:59 **
+** Report includes: Errors, Warnings **
+
+** Found 106 DRC violations **
+[track_width]: Track width (board setup constraints min width 6.00 mils; actual 0.00 mils)
+    Rule: netclass 'Default'; error
+    @(4507.87 mils, 4153.54 mils): Track [Net-(J1-D--PadA7)] on F.Cu, length 78.74 mils
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(4857.87 mils, 3854.33 mils): Footprint J3
+    @(4760.55 mils, 4828.58 mils): Footprint C14
+[clearance]: Clearance violation ( clearance 6.00 mils; actual 4.00 mils)
+    Local override; error
+    @(4794.00 mils, 4866.00 mils): Via [GND] on F.Cu - B.Cu
+    @(4773.00 mils, 4796.00 mils): Track [/RUN] on B.Cu, length 161.00 mils
+[clearance]: Clearance violation ( clearance 6.00 mils; actual 4.36 mils)
+    Local override; error
+    @(4460.63 mils, 4724.41 mils): Pad 56 [unconnected-(U1-QSPI_SCLK-Pad56)] of U1 on F.Cu
+    @(4466.87 mils, 4697.19 mils): Track [+3V3] on F.Cu, length 46.13 mils
+[clearance]: Clearance violation ( clearance 6.00 mils; actual 4.36 mils)
+    Local override; error
+    @(4460.63 mils, 4724.41 mils): Pad 56 [unconnected-(U1-QSPI_SCLK-Pad56)] of U1 on F.Cu
+    @(4489.92 mils, 4697.19 mils): Track [+3V3] on F.Cu, length 23.05 mils
+[clearance]: Clearance violation ( clearance 6.00 mils; actual 5.84 mils)
+    Local override; error
+    @(4332.88 mils, 4828.85 mils): Via [+1V1] on F.Cu - B.Cu
+    @(4341.47 mils, 4808.01 mils): Track [/GPIO3] on F.Cu, length 12.80 mils
+[clearance]: Clearance violation ( clearance 6.00 mils; actual 5.81 mils)
+    Local override; error
+    @(4348.43 mils, 4814.96 mils): Track [/GPIO3] on F.Cu, length 9.83 mils
+    @(4332.88 mils, 4828.85 mils): Via [+1V1] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 6.00 mils; actual 5.84 mils)
+    Local override; error
+    @(4370.08 mils, 4814.96 mils): Track [/GPIO3] on F.Cu, length 21.65 mils
+    @(4332.88 mils, 4828.85 mils): Via [+1V1] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 6.00 mils; actual 5.81 mils)
+    Local override; error
+    @(4366.87 mils, 4849.66 mils): Track [/GPIO4] on F.Cu, length 47.52 mils
+    @(4332.88 mils, 4828.85 mils): Via [+1V1] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 10.00 mils; actual 6.91 mils)
+    Rule: board setup constraints hole; error
+    @(4633.86 mils, 4090.16 mils): Pad A1B12 [GND] of J1 on F.Cu
+    @(4621.65 mils, 4047.83 mils): NPTH pad of J1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 10.00 mils; actual 8.41 mils)
+    Rule: board setup constraints hole; error
+    @(4602.36 mils, 4090.16 mils): Pad A4B9 [+5V] of J1 on F.Cu
+    @(4621.65 mils, 4047.83 mils): NPTH pad of J1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 10.00 mils; actual 8.41 mils)
+    Rule: board setup constraints hole; error
+    @(4413.39 mils, 4090.16 mils): Pad B4A9 [+5V] of J1 on F.Cu
+    @(4394.09 mils, 4047.83 mils): NPTH pad of J1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 10.00 mils; actual 6.91 mils)
+    Rule: board setup constraints hole; error
+    @(4381.89 mils, 4090.16 mils): Pad B1A12 [GND] of J1 on F.Cu
+    @(4394.09 mils, 4047.83 mils): NPTH pad of J1
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(4627.20 mils, 5497.72 mils): Reference field of R8
+    @(4645.22 mils, 5491.67 mils): Segment of R9 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(4627.20 mils, 5497.72 mils): Reference field of R8
+    @(4615.30 mils, 5491.67 mils): Segment of R9 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(4694.35 mils, 5491.67 mils): Segment of R10 on F.Silkscreen
+    @(4676.32 mils, 5497.72 mils): Reference field of R9
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(4664.43 mils, 5491.67 mils): Segment of R10 on F.Silkscreen
+    @(4676.32 mils, 5497.72 mils): Reference field of R9
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(4389.61 mils, 5476.13 mils): Reference field of S1
+    @(4406.31 mils, 5470.87 mils): Segment of R1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(4753.12 mils, 4889.53 mils): Segment of C7 on F.Silkscreen
+    @(4760.55 mils, 4874.25 mils): Reference field of C14
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(4353.35 mils, 4720.67 mils): Reference field of C3
+    @(4370.08 mils, 4724.41 mils): Segment of U1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(4353.35 mils, 4720.67 mils): Reference field of C3
+    @(4370.08 mils, 4724.41 mils): Segment of U1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(4760.55 mils, 4874.25 mils): Reference field of C14
+    @(4753.12 mils, 4861.18 mils): Segment of C7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(4628.74 mils, 4180.71 mils): Reference field of R4
+    @(4598.62 mils, 4180.71 mils): Segment of U2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(4557.68 mils, 4216.54 mils): Reference field of U2
+    @(4557.48 mils, 4186.47 mils): Segment of R4 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(4458.46 mils, 4214.76 mils): Segment of D3 on F.Silkscreen
+    @(4454.53 mils, 4210.04 mils): Reference field of R3
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(4458.46 mils, 4320.47 mils): Segment of D3 on F.Silkscreen
+    @(4454.53 mils, 4210.04 mils): Reference field of R3
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(4682.54 mils, 5214.86 mils): Reference field of R11
+    @(4688.58 mils, 5232.57 mils): Segment of R11 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(4659.37 mils, 5272.86 mils): Reference field of D1
+    @(4688.58 mils, 5262.50 mils): Segment of R11 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(4353.35 mils, 4720.67 mils): Reference field of C3
+    @(4353.43 mils, 4706.20 mils): Circle of U1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(4492.52 mils, 4522.83 mils): Reference field of R5
+    @(4507.87 mils, 4528.74 mils): Circle of L1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4627.20 mils, 5497.72 mils): Reference field of R8
+    @(4630.26 mils, 5517.80 mils): Pad 2 [Net-(D2-Pad2)] of R9 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4627.20 mils, 5497.72 mils): Reference field of R8
+    @(4630.26 mils, 5477.64 mils): Pad 1 [/GPIO17] of R9 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4676.32 mils, 5497.72 mils): Reference field of R9
+    @(4679.39 mils, 5517.80 mils): Pad 2 [Net-(D2-Pad4)] of R10 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4676.32 mils, 5497.72 mils): Reference field of R9
+    @(4679.39 mils, 5477.64 mils): Pad 1 [/GPIO18] of R10 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4389.61 mils, 5476.13 mils): Reference field of S1
+    @(4392.28 mils, 5455.91 mils): Pad 1 [+3V3] of R1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4391.73 mils, 5178.39 mils): Circle of X1 on F.Silkscreen
+    @(4380.05 mils, 5174.22 mils): Pad 1 [GND] of C1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4442.83 mils, 5035.92 mils): Reference field of C5
+    @(4429.13 mils, 5000.00 mils): Pad 18 [/GPIO14] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4760.55 mils, 4874.25 mils): Reference field of C14
+    @(4729.98 mils, 4875.35 mils): Pad 2 [+3V3] of C7 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4760.55 mils, 4874.25 mils): Reference field of C14
+    @(4767.77 mils, 4875.35 mils): Pad 1 [GND] of C7 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4557.68 mils, 4216.54 mils): Reference field of U2
+    @(4572.44 mils, 4212.60 mils): Pad 2 [GND] of R4 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4454.53 mils, 4210.04 mils): Reference field of R3
+    @(4420.67 mils, 4244.19 mils): Pad 1 [GND] of D3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4442.83 mils, 5035.92 mils): Reference field of C5
+    @(4444.88 mils, 5000.00 mils): Pad 19 [/GPIO15] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4442.83 mils, 5035.92 mils): Reference field of C5
+    @(4460.63 mils, 5000.00 mils): Pad 20 [+3V3] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4659.37 mils, 5272.86 mils): Reference field of D1
+    @(4662.46 mils, 5247.54 mils): Pad 2 [Net-(D1-A)] of R11 on F.Cu
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4627.20 mils, 5497.72 mils): Reference field of R8
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4676.32 mils, 5497.72 mils): Reference field of R9
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4725.45 mils, 5497.72 mils): Reference field of R10
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4463.78 mils, 5219.92 mils): Reference field of X1
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4760.55 mils, 4874.25 mils): Reference field of C14
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4750.79 mils, 4704.33 mils): Reference field of C8
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4625.20 mils, 4688.19 mils): Reference field of C10
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4764.57 mils, 4636.61 mils): Reference field of C11
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4628.74 mils, 4180.71 mils): Reference field of R4
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4680.31 mils, 4392.32 mils): Reference field of C16
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4442.83 mils, 5035.92 mils): Reference field of C5
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4748.87 mils, 4921.02 mils): Reference field of C7
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4423.62 mils, 4367.52 mils): Reference field of D3
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4316.34 mils, 4665.55 mils): Reference field of C9
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4709.84 mils, 5023.43 mils): Reference field of U1
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4280.91 mils, 4784.25 mils): Reference field of C12
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4264.96 mils, 4899.41 mils): Reference field of C4
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4636.35 mils, 5648.50 mils): Reference field of D2
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4767.72 mils, 3962.20 mils): Reference field of C15
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4412.36 mils, 5409.84 mils): Reference field of R1
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4586.61 mils, 4469.69 mils): Reference field of L1
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4654.09 mils, 5151.48 mils): Reference field of C6
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4315.55 mils, 4371.65 mils): Reference field of S2
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4682.54 mils, 5214.86 mils): Reference field of R11
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4659.37 mils, 5272.86 mils): Reference field of D1
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4449.21 mils, 4523.23 mils): Reference field of R6
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4857.87 mils, 3760.63 mils): Reference field of J3
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4373.62 mils, 4579.13 mils): Reference field of R2
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4557.68 mils, 4216.54 mils): Reference field of U2
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4509.84 mils, 4194.69 mils): Reference field of J1
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4653.15 mils, 4596.46 mils): Reference field of C2
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4541.34 mils, 5220.47 mils): Reference field of C13
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4492.52 mils, 4522.83 mils): Reference field of R5
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4389.61 mils, 5476.13 mils): Reference field of S1
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4755.91 mils, 4565.35 mils): Reference field of R7
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4454.53 mils, 4210.04 mils): Reference field of R3
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4313.39 mils, 5751.97 mils): Reference field of J4
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4353.35 mils, 4720.67 mils): Reference field of C3
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4157.87 mils, 3760.63 mils): Reference field of J2
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4334.38 mils, 5155.32 mils): Reference field of C1
+[text_height]: Text height out of range (board setup constraints silk text height min height 35.00 mils; actual 32.00 mils)
+    Rule: board setup constraints silk text height; warning
+    @(4352.95 mils, 4497.64 mils): Reference field of R12
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(4094.49 mils, 3799.21 mils): Rectangle on Edge.Cuts
+    @(4803.54 mils, 3800.00 mils): Segment of J3 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(4094.49 mils, 3799.21 mils): Rectangle on Edge.Cuts
+    @(4803.54 mils, 3854.33 mils): Segment of J3 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(4094.49 mils, 3799.21 mils): Rectangle on Edge.Cuts
+    @(4803.54 mils, 3904.33 mils): Segment of J3 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(4094.49 mils, 3799.21 mils): Rectangle on Edge.Cuts
+    @(4803.54 mils, 5808.66 mils): Segment of J3 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(4094.49 mils, 3799.21 mils): Rectangle on Edge.Cuts
+    @(4912.20 mils, 3904.33 mils): Segment of J3 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(4094.49 mils, 3799.21 mils): Rectangle on Edge.Cuts
+    @(4331.89 mils, 3800.59 mils): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(4094.49 mils, 3799.21 mils): Rectangle on Edge.Cuts
+    @(4683.86 mils, 3800.59 mils): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(4094.49 mils, 3799.21 mils): Rectangle on Edge.Cuts
+    @(4683.86 mils, 3850.98 mils): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(4094.49 mils, 3799.21 mils): Rectangle on Edge.Cuts
+    @(4352.76 mils, 5806.30 mils): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(4094.49 mils, 3799.21 mils): Rectangle on Edge.Cuts
+    @(4407.09 mils, 5806.30 mils): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(4094.49 mils, 3799.21 mils): Rectangle on Edge.Cuts
+    @(4457.09 mils, 5806.30 mils): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(4094.49 mils, 3799.21 mils): Rectangle on Edge.Cuts
+    @(4457.09 mils, 5806.30 mils): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(4094.49 mils, 3799.21 mils): Rectangle on Edge.Cuts
+    @(4661.42 mils, 5806.30 mils): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(4094.49 mils, 3799.21 mils): Rectangle on Edge.Cuts
+    @(4103.54 mils, 3800.00 mils): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(4094.49 mils, 3799.21 mils): Rectangle on Edge.Cuts
+    @(4103.54 mils, 3854.33 mils): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(4094.49 mils, 3799.21 mils): Rectangle on Edge.Cuts
+    @(4103.54 mils, 3904.33 mils): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(4094.49 mils, 3799.21 mils): Rectangle on Edge.Cuts
+    @(4103.54 mils, 5808.66 mils): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(4094.49 mils, 3799.21 mils): Rectangle on Edge.Cuts
+    @(4212.20 mils, 3904.33 mils): Segment of J2 on F.Silkscreen
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(4685.20 mils, 4925.20 mils): Track [/GPIO22] on F.Cu, length 1.03 mils
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(4530.31 mils, 4597.64 mils): Via [+1V1] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(4507.87 mils, 4153.54 mils): Track [Net-(J1-D--PadA7)] on F.Cu, length 78.74 mils
+
+** Found 12 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4379.92 mils, 5174.35 mils): Track [GND] on F.Cu, length 0.18 mils
+    @(4494.09 mils, 5178.39 mils): Pad 2 [GND] of X1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4494.09 mils, 5178.39 mils): Pad 2 [GND] of X1 on F.Cu
+    @(4541.34 mils, 5168.90 mils): Pad 1 [GND] of C13 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4660.39 mils, 5098.72 mils): Pad 1 [GND] of C6 on F.Cu
+    @(4541.34 mils, 5168.90 mils): Pad 1 [GND] of C13 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4677.95 mils, 4067.52 mils): PTH pad S1 [GND] of J1
+    @(4633.86 mils, 4090.16 mils): Pad A1B12 [GND] of J1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4369.86 mils, 4751.97 mils): Track [+3V3] on F.Cu, length 0.31 mils
+    @(4407.09 mils, 4664.57 mils): Track [+3V3] on F.Cu, length 34.65 mils
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4370.08 mils, 4751.97 mils): Pad 1 [+3V3] of U1 on F.Cu
+    @(4370.08 mils, 4909.45 mils): Track [+3V3] on F.Cu, length 38.39 mils
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4460.63 mils, 5000.00 mils): Track [+3V3] on F.Cu, length 80.49 mils
+    @(4370.08 mils, 4909.45 mils): Track [+3V3] on F.Cu, length 38.39 mils
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4507.87 mils, 4724.41 mils): Pad 53 [+3V3] of U1 on F.Cu
+    @(4492.13 mils, 4724.41 mils): Track [+3V3] on F.Cu, length 25.02 mils
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4624.02 mils, 5013.78 mils): Track [+3V3] on F.Cu, length 17.72 mils
+    @(4686.84 mils, 4862.20 mils): Track [+3V3] on F.Cu, length 41.17 mils
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4645.67 mils, 4767.72 mils): Pad 44 [+3V3] of U1 on F.Cu
+    @(4686.84 mils, 4862.20 mils): Track [+3V3] on F.Cu, length 41.17 mils
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4593.50 mils, 4846.46 mils): Via [+1V1] on F.Cu - B.Cu
+    @(4507.87 mils, 5000.00 mils): Track [+1V1] on F.Cu, length 28.57 mils
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4534.25 mils, 4175.00 mils): Track [Net-(J1-D--PadA7)] on F.Cu, length 4.45 mils
+    @(4507.87 mils, 4153.54 mils): Track [Net-(J1-D--PadA7)] on F.Cu, length 78.74 mils
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - PTH inside courtyard
+    - NPTH inside courtyard
+
+** End of Report **

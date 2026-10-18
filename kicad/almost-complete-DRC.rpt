@@ -1,0 +1,27 @@
+** Drc report for mp3_fa2026.kicad_pcb **
+** Created on 2026-10-18T13:26:30 **
+** Report includes: Errors **
+
+** Found 2 DRC violations **
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 7.87 mils; actual 6.91 mils)
+    Rule: board setup constraints hole; error
+    @(4633.86 mils, 4090.16 mils): Pad A1B12 [GND] of J1 on F.Cu
+    @(4621.65 mils, 4047.83 mils): NPTH pad of J1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 7.87 mils; actual 6.91 mils)
+    Rule: board setup constraints hole; error
+    @(4381.89 mils, 4090.16 mils): Pad B1A12 [GND] of J1 on F.Cu
+    @(4394.09 mils, 4047.83 mils): NPTH pad of J1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - PTH inside courtyard
+    - NPTH inside courtyard
+
+** End of Report **
