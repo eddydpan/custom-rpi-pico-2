@@ -12,4 +12,12 @@
 #undef PICO_DEFAULT_LED_PIN
 #define PICO_DEFAULT_LED_PIN 19
 
+#undef PICO_RGB_R_PIN 
+#define PICO_RGB_R_PIN 16
+#undef PICO_RGB_G_PIN
+#define PICO_RGB_G_PIN 17
+#undef PICO_RGB_B_PIN
+#define PICO_RGB_B_PIN 18
+
+
 #endif
