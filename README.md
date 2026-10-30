@@ -56,10 +56,16 @@ cmake -S . -B build
 cmake --build build -j
 ```
 
-Hold BOOTSEL while plugging in USB, then flash with picotool:
+The first time (or if the board is running firmware without USB stdio), hold BOOTSEL while plugging in USB, then flash with picotool:
 
 ```sh
 picotool load -x build/blink.uf2
 ```
 
 (Alternatively, drag `build/blink.uf2` onto the `RP2350` drive.)
+
+After that, firmware built with `pico_enable_stdio_usb` exposes a reset interface over USB, so picotool can reboot the board into BOOTSEL itself. No button needed:
+
+```sh
+picotool load -f -x build/blink.uf2
+```

@@ -26,5 +26,10 @@ add_executable(blink src/blink.c)
 
 target_link_libraries(blink pico_stdlib)
 
+# stdio over USB instead of UART; this also lets picotool reboot the board
+# into BOOTSEL (picotool load -f) without holding the BOOT button
+pico_enable_stdio_usb(blink 1)
+pico_enable_stdio_uart(blink 0)
+
 # create map/bin/hex file etc.
 pico_add_extra_outputs(blink)
