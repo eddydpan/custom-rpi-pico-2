@@ -4,8 +4,28 @@ Eddy Pan
 
 A custom RP2354A development board in the style of the Raspberry Pi Pico 2, designed in KiCad 10.
 
-![Custom RPI Pico 2 Layout](assets/custom-pico-2-layout.png)
-![Custom RPI Pico 2 3D Model](assets/custom-pico-2-3d-view.png)
+<p align="center">
+  <img src="assets/custom-pico-2-3d-view.png" alt="Custom RPi Pico 2 3D model" width="720">
+  <br>
+  <em>3D render</em>
+</p>
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="assets/custom-pico-2-layout.png" alt="Custom RPi Pico 2 PCB layout" height="480">
+    </td>
+    <td align="center">
+      <a href="assets/blinking.mp4">
+        <img src="assets/blinking.gif" alt="Custom Pico 2 blinking the red channel of the onboard RGB LED" height="480">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><em>PCB layout</em></td>
+    <td align="center"><em>Blinky on the RGB LED's red channel</em> (<a href="assets/blinking.mp4">full video</a>)</td>
+  </tr>
+</table>
 
 ## Docs
 
