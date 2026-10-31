@@ -17,13 +17,13 @@ A custom RP2354A development board in the style of the Raspberry Pi Pico 2, desi
     </td>
     <td align="center">
       <a href="assets/blinking.mp4">
-        <img src="assets/blinking.gif" alt="Custom Pico 2 blinking the red channel of the onboard RGB LED" height="480">
+        <img src="assets/blinking.gif" alt="Custom Pico 2 blinking the user LED at 1 Hz" height="480">
       </a>
     </td>
   </tr>
   <tr>
     <td align="center"><em>PCB layout</em></td>
-    <td align="center"><em>Blinky on the RGB LED's red channel</em> (<a href="assets/blinking.mp4">full video</a>)</td>
+    <td align="center"><em>Blinky on the user LED at 1 Hz</em> (<a href="assets/blinking.mp4">full video</a>)</td>
   </tr>
 </table>
 
@@ -33,7 +33,7 @@ A custom RP2354A development board in the style of the Raspberry Pi Pico 2, desi
 
 ## Firmware
 
-### Dependencies (Fedora)
+### Dependencies (Fedora 44)
 
 ```sh
 sudo dnf install cmake git python3 gcc-c++ libusb1-devel \
